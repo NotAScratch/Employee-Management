@@ -14,5 +14,5 @@ The Employee Management System is designed to help small companies manage their 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Employee-Management.git
+   git clone https://github.com/NotAScratch/Employee-Management.git
    ```
