@@ -6,6 +6,11 @@ public class Employee {
 	private String department;
 	private double salary;
 
+    public Employee() {
+
+        // default constructor with no arguments
+
+    }
 	// Constructor
 	public Employee(String name, int age, String department, double salary) {
 		this.name = name;
