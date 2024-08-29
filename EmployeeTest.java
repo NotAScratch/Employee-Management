@@ -9,10 +9,12 @@ public class EmployeeTest {
         // Display the information of both the employee and the manager
         System.out.println("Employee Information:");
         System.out.println(employee.toString());
+        employee.displayEmployeeInfo();
         System.out.println();
 
         System.out.println("Manager Information:");
         System.out.println(manager.toString());
+        manager.displayEmployeeInfo();
         System.out.println();
 
         // Raise the salary of both the employee and the manager by 10%
@@ -22,9 +24,11 @@ public class EmployeeTest {
         // Display the updated information of both
         System.out.println("Updated Employee Information:");
         System.out.println(employee.toString());
+        employee.displayEmployeeInfo();
         System.out.println();
 
         System.out.println("Updated Manager Information:");
         System.out.println(manager.toString());
+        manager.displayEmployeeInfo();
     }
 }
